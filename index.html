@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Deutsche Süßigkeiten</title> <!--Német édességek-->
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    
+    <header>
+        <div>
+            <h1>Überschrift</h1> <!--főcím ÁTÍRNI-->
+        </div>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navigation</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Heim</a>
+                  <a class="nav-link" href="#">Unsere Favoriten</a> <!--our favourites-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Alle Rezepte
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Rezepte 1</a></li>
+                      <li><a class="dropdown-item" href="#">Rezepte 2</a></li>
+                      <li><a class="dropdown-item" href="#">Rezepte 3</a></li>
+                    </ul>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <h2>Wilkommen!</h2> 
+        <p>
+            Willkommen in unserer Bäckerei! <!--Welcome to our bakery!-->
+        </p>
+        <p>
+            Befähigt: <!--Featured:-->
+        </p>
+        <!--Card template-->
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vorgestelltes Rezept</h5> <!--featured recipe-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Vollständiges Rezept</a>
+            </div>
+          </div>
+    </main>
+    <footer>
+        © The Small German Project, Alle Rechte vorbehalten. <!--All rights reserved-->
+    </footer>
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
