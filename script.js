@@ -13,6 +13,21 @@ const cards = [
         link : "zimtsterntorte.html",
         name: "Zimtsterntorte",
         image: "img/zimtsterntorte.jpg"
+    },
+    {
+        link : "blitz.html",
+        name: "Blitz",
+        image: "img/blitz-kaesekuchen-mit-mandarinen-vom-blech.jpg"
+    },
+    {
+        link : "baileys.html",
+        name: "Baileys",
+        image: "img/baileys-schichtdessert.jpg"
+    },
+    {
+        link : "rahmkuchen.html",
+        name: "Rahmkuchen",
+        image: "img/rahmkuchen.jpg"
     }
 ]
 console.log(cards);

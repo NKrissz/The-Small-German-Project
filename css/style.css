@@ -5,6 +5,10 @@ body{
     background-position: center;
     background-size: cover;
 }
+table {
+  display: flex;
+  flex-wrap: wrap;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -29,10 +33,6 @@ nav {
   list-style-type: none;
   flex-direction: row;
   padding: 7px;
-}
-
-nav>td {
-  
 }
 
 nav a {
@@ -149,11 +149,12 @@ footer {
 @media screen and (max-width: 1280px){
   .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr auto 1fr;
     grid-template-areas: 
       "header header header header"
-      "card card card card"
+      "card card card"
+      "card card card"
       "footer footer footer footer";
   }
 }
@@ -182,9 +183,12 @@ footer {
   td {
     display: flex;
     flex-direction: column;
-    border: 2px solid pink;
+    
     list-style-type: none;
     white-space: nowrap;
+  }
+  nav>td{
+    border: 2px solid pink;
   }
   
   
