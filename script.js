@@ -21,7 +21,7 @@ function MakeCard(i)
 {
     let card = cards[i];
     let d = document.getElementById("cards");
-    let newcard = document.createElement("div");
+    let newcard = document.createElement("td");
     newcard.innerHTML = 
     `<div class="card" style="width: 18rem;">
         <img src="${card.image}" class="card-img-top" alt="${card.name}">
